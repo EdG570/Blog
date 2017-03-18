@@ -27,7 +27,7 @@
 
 5. Create all controllers in Areas - COMPLETED
 6. Add default Index Views - COMPLETED
-7. Create Common Layout - In Progress
+7. Create Common Layout - Completed
 8. Create DAL
 	- Add PostDb
 9. Create BLL
