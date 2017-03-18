@@ -1,5 +1,5 @@
-﻿1.  Create solution with all projects - In Progress
-2. Create BOL
+﻿1.  Create solution with all projects - Completed
+2. Create BOL - In Progress
 3. Add connection string to UI
 4. Create Areas:
 	a. Common:
