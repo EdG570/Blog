@@ -43,6 +43,7 @@ namespace DAL
         public void Update(Post post)
         {
             db.Entry(post).State = EntityState.Modified; 
+            Save();
         }
 
         public void Save()
