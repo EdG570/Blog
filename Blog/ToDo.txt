@@ -1,7 +1,7 @@
 ﻿1.  Create solution with all projects - Completed
 2. Create BOL - Completed
 3. Add connection string to UI - Completed
-4. Create Areas:
+4. Create Areas: - COMPLETED
 	a. Common:
 		- Home (/Common/Home)
 		- Details (/Common/Post)
@@ -25,9 +25,9 @@
 		- Login (/Login)
 		- Register (/Register)
 
-5. Create all controllers in Areas
-6. Add default Index Views 
-7. Create Common Layout
+5. Create all controllers in Areas - COMPLETED
+6. Add default Index Views - COMPLETED
+7. Create Common Layout - In Progress
 8. Create DAL
 	- Add PostDb
 9. Create BLL

@@ -129,11 +129,9 @@
     <Content Include="Areas\Common\Views\Contact\Index.cshtml" />
     <Content Include="Areas\User\Views\web.config" />
     <Content Include="Areas\User\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\User\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\User\Views\Post\Index.cshtml" />
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Admin\Views\CreatePost\Index.cshtml" />
     <Content Include="Areas\Admin\Views\ListPosts\Index.cshtml" />
     <Content Include="Areas\Admin\Views\ListUsers\Index.cshtml" />
@@ -144,7 +142,6 @@
     <Content Include="Areas\Admin\Views\ListTags\Index.cshtml" />
     <Content Include="Areas\Security\Views\web.config" />
     <Content Include="Areas\Security\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\Security\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Security\Views\LogIn\Index.cshtml" />
     <Content Include="Areas\Security\Views\Register\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -188,12 +185,12 @@
     </Content>
     <Content Include="Areas\Common\Views\web.config" />
     <Content Include="Areas\Common\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\Common\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Common\Views\Home\Index.cshtml" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -204,9 +201,13 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Areas\Common\Models\" />
+    <Folder Include="Areas\Common\Views\Shared\" />
     <Folder Include="Areas\Security\Models\" />
+    <Folder Include="Areas\Security\Views\Shared\" />
     <Folder Include="Areas\User\Models\" />
+    <Folder Include="Areas\User\Views\Shared\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
