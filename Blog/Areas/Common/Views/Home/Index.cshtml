@@ -1,7 +1,39 @@
-﻿
+﻿@using System.Globalization
+@model Blog.Areas.Common.ViewModels.HomeViewModel
+
 @{
     ViewBag.Title = "Index";
 }
+<div class="home-content-cont">
+    <div id="post-summary-cont">
+        @foreach (var item in ViewData.Model.posts)
+        {
+            <div class="post-summary">
+                <img src="@Url.Content("~/Content/Images/" + item.ImageName )" />
+                <div>
+                    <h2>@Html.DisplayFor(modelItem => item.Title)</h2>
+                    <p class="post-date">@CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(@item.Created_At.Month) @item.Created_At.Day, @item.Created_At.Year</p>
+                    <p>@Html.DisplayFor(modelItem => item.Summary)</p>
+                    @Html.ActionLink("Read More", "Index", new { Controller = "Post", Area = "Common", id = item.Id }, new { @class = "detail-link" })
+                </div>
+            </div>
+        }
+    </div>
+    <div class="side-panel-cont">
+        <h3><span>Categories</span></h3>
+        @foreach (var category in ViewData.Model.categories)
+        {
+            @Html.ActionLink(@category.Name, "Index", new {Controller = "Home", Area = "Common", categoryId = @category.Id.ToString()})
+        }
+        @Html.ActionLink("All", "Index", new { Controller = "Home", Area = "Common", categoryId = "0" })
+    </div>
 
-<h2>Index</h2>
-
+    <div class="side-panel-cont">
+        <h3><span>Tags</span></h3>
+        @foreach (var tag in ViewData.Model.tags)
+        {
+            @Html.ActionLink(@tag.Name, "Index", new { Controller = "Home", Area = "Common", tagId = @tag.Id.ToString() })
+        }
+        @Html.ActionLink("All", "Index", new { Controller = "Home", Area = "Common", tagId = "0" })
+    </div>
+</div>

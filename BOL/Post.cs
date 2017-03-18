@@ -21,5 +21,6 @@ namespace BOL
         public System.DateTime Created_At { get; set; }
         public Nullable<System.DateTime> Updated_At { get; set; }
         public int CategoryId { get; set; }
+        public string ImageName { get; set; }
     }
 }

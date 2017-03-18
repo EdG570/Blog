@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    letter-spacing: 1px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -14,5 +15,136 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+p {
+    line-height: 1.4;
+    font-weight: 200;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+    clear: both;
+}
+
+/*------------------ NAV BAR ---------------------*/
+
+ul.nav-links {
+    float: right;
+    color: #fff;
+}
+
+ul.nav-links li a {
+    color: #fff;
+}
+
+.navbar {
+    background-color: #07575B;
+    padding: 1em 0;
+}
+
+/* ------------------ HOME PAGE ------------------- */
+
+/*.header-img {
+    background: url("./Images/blog-header.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 15em 2em;
+    color: #fff;
+}*/
+
+.home-content-cont {
+    padding-top: 1em;    
+}
+
+#post-summary-cont {
+    width: 75%;
+    float: left;
+}
+.post-summary {
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 12em;
+    position: relative;
+}
+
+.post-summary img {
+    width: 100%;
+    max-height: 350px;
+}
+
+.post-summary div {
+    background-color: #fff;
+    color: #333;
+    position: absolute;
+    left: 6em;
+    bottom: -8em;
+    width: 80%;
+    padding: 1em;
+}
+
+p.post-date {
+    color: #aaa;
+    margin-bottom:1em;
+    font-weight: 200;
+    border-bottom: 1px solid #07575b;
+}
+
+.post-summary h2 {
+    margin-top: 0;
+}
+
+.post-summary p {
+    margin-bottom: 1em;
+}
+
+.detail-link {
+    background-color: #66a5ad;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+/****************** SIDE PANELS HOME PAGE ******************/
+
+.side-panel-cont {
+    float: right;
+    width: 23%;
+    padding: 3.5em;
+    margin-left: 1em;
+}
+
+.body-context .side-panel-cont:last-child {
+    padding-top: 0;
+}
+
+.side-panel-cont a {
+    display: block;
+    color: #333;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #07575B;
+    padding-left: 0.5em;
+}
+
+.side-panel-cont span {
+    background-color: #07575B;
+    padding: 0.3em 0.5em;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.side-panel-cont h3 {
+    border-bottom: 3px solid #07575b;
+    font-size: 1em;
+    color: #fff;
+}
+
+div .control-panel:last-child {
+    padding-top: 0;
 }
 

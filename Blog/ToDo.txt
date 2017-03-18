@@ -13,6 +13,7 @@
 		- Like comments (/User/Post)
 
 	c. Admin:
+	    - Admin panel (/Admin/Panel) *Contains links to all admin actions
 		- Create new blog posts (/Admin/CreatePost)
 		- List existing posts and make them active or inactive (/Admin/ListPosts)
 		- List existing users and have ability to ban or unnban them (Admin/ListUsers)
