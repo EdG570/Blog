@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog", "Blog\Blog.csproj", "{AF50C01C-87F6-49B1-A78A-1B914FFF3F36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogUI", "Blog\BlogUI.csproj", "{AF50C01C-87F6-49B1-A78A-1B914FFF3F36}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Tests", "Blog.Tests\Blog.Tests.csproj", "{0223DA6E-2C39-4A66-81E5-F77FECF92D0E}"
 EndProject
