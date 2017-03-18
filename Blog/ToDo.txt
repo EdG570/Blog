@@ -1,1 +1,35 @@
-﻿
+﻿1.  Create solution with all projects - In Progress
+2. Create BOL
+3. Add connection string to UI
+4. Create Areas:
+	a. Common:
+		- Home (/Common/Home)
+		- Details (/Common/Details)
+		- About (/Common/About)
+
+	b. User:
+		- Post new comments (/User/Details)
+		- Like comments (/User/Details)
+
+	c. Admin:
+		- Create new blog posts (/Admin/CreatePost)
+		- List existing posts and make them active or inactive (/Admin/ListPosts)
+		- List existing users and have ability to ban or unnban them (Admin/ListUsers)
+		- List new comments and approve or reject them (P, A, R) (Admin/ListComments)
+		- Create new categories (Admin/CreateCategory)
+		- List and edit existing categories (Admin/ListCategories)
+		- Create new tags (Admin/CreateTag)
+		- List and edit existing tags (Admin/ListTags)
+	d. Security
+		- Login (/Login)
+		- Register (/Register)
+
+5. Create all controllers in Areas
+6. Add default Index Views 
+7. Create Common Layout
+8. Create DAL
+	- Add PostDb
+9. Create BLL
+	- Add PostBs
+10. Update Details controller
+11. Update Details View
