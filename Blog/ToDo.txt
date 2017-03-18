@@ -1,15 +1,16 @@
 ﻿1.  Create solution with all projects - Completed
-2. Create BOL - In Progress
-3. Add connection string to UI
+2. Create BOL - Completed
+3. Add connection string to UI - Completed
 4. Create Areas:
 	a. Common:
 		- Home (/Common/Home)
-		- Details (/Common/Details)
+		- Details (/Common/Post)
 		- About (/Common/About)
+		- Contact (/Common/Contact)
 
 	b. User:
-		- Post new comments (/User/Details)
-		- Like comments (/User/Details)
+		- Post new comments (/User/Post)
+		- Like comments (/User/Post)
 
 	c. Admin:
 		- Create new blog posts (/Admin/CreatePost)

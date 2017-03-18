@@ -117,12 +117,64 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\Common\Views\Post\Index.cshtml" />
+    <Content Include="Areas\Common\Views\About\Index.cshtml" />
+    <Content Include="Areas\Common\Views\Contact\Index.cshtml" />
+    <Content Include="Areas\User\Views\web.config" />
+    <Content Include="Areas\User\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\User\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\User\Views\Post\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\CreatePost\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ListPosts\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ListUsers\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ListComments\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\CreateCategory\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ListCategories\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\CreateTag\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ListTags\Index.cshtml" />
+    <Content Include="Areas\Security\Views\web.config" />
+    <Content Include="Areas\Security\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Security\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Security\Views\LogIn\Index.cshtml" />
+    <Content Include="Areas\Security\Views\Register\Index.cshtml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="ToDo.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\CreateCategoryController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CreatePostController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CreateTagController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ListCategoriesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ListCommentsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ListPostsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ListTagsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ListUsersController.cs" />
+    <Compile Include="Areas\Common\CommonAreaRegistration.cs" />
+    <Compile Include="Areas\Common\Controllers\AboutController.cs" />
+    <Compile Include="Areas\Common\Controllers\ContactController.cs" />
+    <Compile Include="Areas\Common\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Common\Controllers\PostController.cs" />
+    <Compile Include="Areas\Security\Controllers\LogInController.cs" />
+    <Compile Include="Areas\Security\Controllers\RegisterController.cs" />
+    <Compile Include="Areas\Security\SecurityAreaRegistration.cs" />
+    <Compile Include="Areas\User\Controllers\PostController.cs" />
+    <Compile Include="Areas\User\UserAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -134,6 +186,14 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Areas\Common\Views\web.config" />
+    <Content Include="Areas\Common\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Common\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Common\Views\Home\Index.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -143,6 +203,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Common\Models\" />
+    <Folder Include="Areas\Security\Models\" />
+    <Folder Include="Areas\User\Models\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
